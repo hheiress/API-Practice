@@ -1,0 +1,36 @@
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    font-family: fantasy;
+}
+.nav-container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-text{
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 360px;
+    border: solid pink 3px;
+    border-radius: 15px;
+}
+.nav-text button{
+    width:30%; height: 30px;
+    background-color:salmon ;
+    border:none;
+    border-radius: 15px;
+}
+.block-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:15px;
+}
